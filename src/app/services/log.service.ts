@@ -73,4 +73,5 @@ export class LogService {
   clearState() {
     this.stateSource.next(true);
   }
+
 }
